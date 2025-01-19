@@ -4,6 +4,7 @@ local config = wezterm.config_builder()
 config.font = wezterm.font 'JetBrainsMono Nerd Font'
 config.scrollback_lines = 10000
 config.window_close_confirmation = 'NeverPrompt'
+config.window_background_opacity = 0.8
 
 config.keys = {
     -- Bind Ctrl+Shift+PageDown to split vertically (create a new pane to the right)
