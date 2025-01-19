@@ -13,7 +13,7 @@ hs.hotkey.bind({ "Alt" }, "z", function()
              f.x = max.x
              f.y = max.y
              f.w = max.w
-             f.h = max.h * 0.55
+             f.h = max.h * 0.7
              hs.timer.doAfter(0.2, function()
                  wez_window:setFrame(f)
              end)
