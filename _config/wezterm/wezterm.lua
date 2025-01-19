@@ -41,9 +41,9 @@ config.mouse_bindings = {
     },
 }
 
---wezterm.on('gui-startup', function(cmd)
---  local tab, pane, window = mux.spawn_window(cmd or {})
---  window:gui_window():maximize()
---end)
+config.colors = {
+     -- The color of the split lines between panes
+     split = '#BEBEBE',
+}
 
 return config
