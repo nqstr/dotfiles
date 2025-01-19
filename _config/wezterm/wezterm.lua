@@ -39,6 +39,12 @@ config.mouse_bindings = {
         end
       end),
     },
+    -- copy on select
+    {
+      event = { Up = { streak = 1, button = 'Left' } },
+      mods = 'NONE',
+      action = wezterm.action.CompleteSelection 'Clipboard',
+    },
 }
 
 config.colors = {
