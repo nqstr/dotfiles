@@ -9,13 +9,13 @@ config.window_background_opacity = 0.8
 config.keys = {
     -- Bind Ctrl+Shift+PageDown to split vertically (create a new pane to the right)
     {
-        key = "PageDown",
+        key = "DownArrow",
         mods = "CTRL|SHIFT",
         action = wezterm.action.SplitVertical { domain = "CurrentPaneDomain" },
     },
     -- Bind Ctrl+Shift+PageUp to split horizontally (create a new pane below)
     {
-        key = "PageUp",
+        key = "UpArrow",
         mods = "CTRL|SHIFT",
         action = wezterm.action.SplitHorizontal { domain = "CurrentPaneDomain" },
     },
