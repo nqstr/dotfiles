@@ -19,6 +19,12 @@ config.keys = {
         mods = "CTRL|SHIFT",
         action = wezterm.action.SplitHorizontal { domain = "CurrentPaneDomain" },
     },
+    -- Always on top
+    {
+        key = ']',
+        mods = 'CMD|SHIFT',
+        action = wezterm.action.ToggleAlwaysOnTop,
+     },
 }
 
 config.mouse_bindings = {
