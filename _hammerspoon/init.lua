@@ -1,4 +1,4 @@
-hs.hotkey.bind({ "Alt" }, "z", function()
+hs.hotkey.bind({ "Alt" }, "x", function()
 	toggleApp("Wezterm")
 end)
 
@@ -12,6 +12,14 @@ end)
 
 hs.hotkey.bind({ "Alt" }, "w", function()
 	toggleApp("WhatsApp", 1)
+end)
+
+hs.hotkey.bind({ "Alt" }, "z", function()
+	toggleApp("Zed", 1)
+end)
+
+hs.hotkey.bind({ "Alt" }, "c", function()
+	toggleApp("Chrome", 1)
 end)
 
 function toggleApp(appName, height)
@@ -36,4 +44,4 @@ function toggleApp(appName, height)
 			app_window:focus()
 		end
 	end
-end
+end	
